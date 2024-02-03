@@ -1,5 +1,5 @@
-#practical seminar: leveraging network data for automated host discovery and vulnerability management
-##1. Setup
+# leveraging network data for automated host discovery and vulnerability management
+## 1. Setup
 Code must be run with admin privileges
 docker-compose up -d
 activate venv: for more information refer to:  https://docs.python.org/3/library/venv.html
@@ -7,10 +7,10 @@ activate venv: for more information refer to:  https://docs.python.org/3/library
 Tools used: 
 * nmap
 * pyshark
-##2. Execution
+## 2. Execution
 
 
-###Order of Execution:
+### Order of Execution:
 1. mongodb.py 
 
 2. hostdiscovery.py
@@ -30,7 +30,7 @@ b) replace network range input in l.16 ('192.168.2') as required for the network
 
 
 
-##3. Important Notes
+## 3. Important Notes
 **Apple_Device_identification.py:** 
 It is not required to run Apple_Device_identification.py individually, as the file contains only a function. 
 
