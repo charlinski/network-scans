@@ -1,8 +1,8 @@
 # leveraging network data for automated host discovery and vulnerability management
 ## 1. Setup
-Code must be run with admin privileges
-docker-compose up -d
-activate venv: for more information refer to:  https://docs.python.org/3/library/venv.html
+- Code must be run with admin privileges
+- docker-compose up -d
+- activate venv: for more information refer to:  https://docs.python.org/3/library/venv.html
 
 Tools used: 
 * nmap
